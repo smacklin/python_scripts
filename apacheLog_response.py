@@ -29,20 +29,6 @@ Requires python3 with no third party libs
 
 '''
 
-''''
-
-Write two "scripts" (and language/approach that you like) as follows:
-A script that "watches" the apache log file and only prints out lines that correspond to slow requests (slow being more 1 second) as they are logged
-A script that looks at the last 10,000 lines of the file and counts up
-average response time
-number of responses slower than 100ms, 500ms and 1s respectively
-bonus points for giving the standard deviation for (2.a) as well
-
-'''
-
-
-
-
 responses = {}
 
 class LogLine:
